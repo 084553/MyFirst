@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <div>
+        
+    </div>
+    <form action="./search.html" method="get">
+        <div>
+            
+            <label>
+                <span> 使用者標  3     </span>
+                <input type="text" name="username" readonly>
+                <input type="submit" value="搜尋">
+        
+            </label>
+            
+            
+        </div>
+        <div>
+            <span> 姓名2      </span>
+                <input type="text" name="username" placeholder="請輸入中文名稱">
+                <input type="submit" value="搜尋">
+        
+        </div>
+        <hr>
+        <input type="submit" value=" 搜尋">
+
+        <hr>
+        <div>
+            <label for="username">使用者名稱：</label>
+<input type="text" id="username" name="username" value="預設值" placeholder="請輸入使用者名稱">
+        </div>
+
+        <hr>
+        <!-- 停用和唯讀的差異 -->
+         <div>
+             <label for="disabled_field">停用欄位：</label>
+             <input type="text" id="disabled_field" name="disabled_field" disabled value="這個欄位已停用">
+
+         </div>
+
+         <hr>
+         <div>
+          <label for="readonly_field">唯讀欄位：
+
+          </label>
+            <input type="text" id="readonly_field" name="readonly_field" readonly value="這個欄位唯讀">  
+         </div>
+    </form>
+<hr>
+<fieldset>
+    <legend>  個人介紹</legend>
+    <span>性別</span>
+    <label>
+        <input type="radio" name="gender"  value="male"> 男</label>
+        <input type="radio" name="gender"  value="female"> 女
+     </abel>
+        <input type="submit" value="提交">
+</fieldset>
+
+<div>
+    <span>居住地</span>
+    <select name="city" >
+        <option value="taipei" selected>台北市</option>
+        <option value="taichung" selected>台中市</option>
+        <option value="kaohsing" selected>高雄市</option>
+      
+    </select>
+</div>
+
+<div>
+    <span>生日</span>
+    <input type="date" name="birth" min="1911-01-01" >
+</div>
+<div>
+    <span>照闢上傳</span>
+    <input type="file" name="photo" accept="image/*" >
+</div>
+<br>
+<input type="submit" value="提交">
+<div>
+    <label>
+        <span>使用者帳號 </span>
+        <input type="text" name="account">
+    </label>
+    <div>
+        <textarea name="intro" rows="5">
+
+        </textarea>
+    </div>
+</div>
+<hr><hr>
+<fieldset>
+    <legend>自我介紹</legend>
+</fieldset>
+
+</body>
+   
+    
+
+</html>
