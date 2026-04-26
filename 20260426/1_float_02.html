@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    .container {
+      max-width: 600px;
+      width: auto;
+      /* height: 600px; */
+      border: 1px solid black;
+      padding: 10px;
+
+      /* overflow: auto; */
+      img {
+        float: right;
+        margin: 0 20px 20px;
+      }
+
+      span {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        float: left;
+        margin: 0 20px 20px;
+      }
+    }
+
+    .clearfix::before,
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+  </style>
+</head>
+  <div class="container clearfix">
+    <h2>矛盾湖口紡織未經道路發佈時間一對，為何。</h2>
+    <img src="https://picsum.photos/200/200/?random=10">
+    <span>Lorem</span>
+    <!-- <div class="clearBoth"></div> -->
+  </div>
+
+<body>
+
+</body>
+</html>
